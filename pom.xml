@@ -6,8 +6,9 @@
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>hello-ci</name>
-    <url>https://github.com/vitalliuss/helloci</url>
+    <url>https://github.com/DmitriiSvnk/helloci.git</url>
     <properties>
+        <encoding>UTF-8</encoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
@@ -49,6 +50,7 @@
                     <formats>
                         <format>xml</format>
                     </formats>
+                    <check/>
                 </configuration>
                 <executions>
                     <execution>
